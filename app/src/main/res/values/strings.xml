@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SIGAapps</string>
+    <string name="GOOGLEMAP_API_KEY">AIzaSyD_eoTcVC6fuBkoZGtAC8rK3KMLj7cKlaE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

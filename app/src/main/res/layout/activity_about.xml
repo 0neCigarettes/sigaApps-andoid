@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="#CD9F6E"
+                android:layout_marginTop="100dp"
+                android:text="Tentang Applikasi"
+                android:textStyle="bold"
+                android:textSize="12pt"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtAbout"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="safsf"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:textAlignment="textStart"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "284416033508",
+    "firebase_url": "https://tl-tracking-211106.firebaseio.com",
+    "project_id": "tl-tracking-211106",
+    "storage_bucket": "tl-tracking-211106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284416033508:android:fb93af54fbc2f5bc",
+        "android_client_info": {
+          "package_name": "com.example.omgimbot.mapsbanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284416033508-i1bh5rh8ao305cfoo79hdgsg8rcsovta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omgimbot.mapsbanking",
+            "certificate_hash": "c488daa0dee03fa3990f8e9e4a3f3b28e9a09451"
+          }
+        },
+        {
+          "client_id": "284416033508-hh33e6rnafl4g6mnns5jmiqesha7fci2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA28ZAFQsYi6SGxILSQJXWz8J0MWNf_DEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284416033508-hh33e6rnafl4g6mnns5jmiqesha7fci2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/plat_text"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Z4545TD"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plat_text">
+
+                <TextView
+                    android:id="@+id/ago_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="12 jam yang lalu"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_toRightOf="@id/ago_text"
+                    android:text="20-09-1991"
+                    android:textSize="10dp" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/name_text"
+                android:singleLine="false"
+                android:maxEms="25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time_layout"
+                android:text="20-09-1991"
+                android:background="@drawable/bg_charter_complete"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAllCaps="true"
+                android:textSize="10dp" />
+            <TextView
+                android:layout_below="@id/name_text"
+                android:layout_marginTop="15dp"
+                android:id="@+id/distance_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:id="@+id/icon_image"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/line_view"
+            android:layout_below="@id/main_layout"
+            android:layout_marginTop="10dp"
+            android:background="@color/fadeWhite2" />
+    </RelativeLayout>
+</RelativeLayout>

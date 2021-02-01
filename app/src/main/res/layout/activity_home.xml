@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD9F6E"
+    tools:context=".home">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="SIGAapps"
+                android:textSize="20pt"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/btnApotek"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_apotek"
+                        android:background="#C7BCAE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:text="Apotek"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnMap"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_add_map"
+                        android:background="#C7BCAE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:text="Maps"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/btnAbout"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_about"
+                        android:background="#C7BCAE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:text="Tentang"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnPetunjuk"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_petunjuk"
+                        android:background="#C7BCAE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:text="Petujuk"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
